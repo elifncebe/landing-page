@@ -1,10 +1,15 @@
 /* styles.css */
-body {
+body, html {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F9FAF8;
     color: #1F2937;
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -27,7 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -38,9 +43,9 @@ body {
 }
 
 .hero-image img {
-    width: 300px; /* Adjust as needed */
+    max-width: 300px; 
     height: auto;
-    border: 2px solid #3882F6; /* Blue outline for hero image */
+    border: 2px solid #3882F6; 
 }
 
 .hero h1 {
@@ -64,21 +69,22 @@ body {
     font-size: 36px;
     font-weight: 900;
     width: 100%;
+    padding: 10px 0; 
 }
 
 .info-box {
     background-color: #E5E7EB;
     padding: 10px;
     margin: 10px;
-    width: 300px; /* Ensure width consistency */
-    border: 2px solid #3882F6; /* Blue border for info box images */
+    flex: 1 1 300px; 
+    border: 2px solid #3882F6; 
     text-align: center;
 }
 
 .info-box img {
-    width: 100%; /* Responsive images */
+    width: 100%; 
     height: auto;
-    border: 2px solid #3882F6; /* Blue outline for images */
+    border: 2px solid #3882F6; 
 }
 
 footer {
@@ -104,7 +110,7 @@ button {
 }
 
 button:hover {
-    background-color: #2A6BD7; /* Slightly darker blue for hover effect */
+    background-color: #2A6BD7; 
 }
 
 copyright {
