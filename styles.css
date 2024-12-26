@@ -40,6 +40,7 @@ body {
 .hero-image img {
     width: 300px; /* Adjust as needed */
     height: auto;
+    border: 2px solid #3882F6; /* Blue outline for hero image */
 }
 
 .hero h1 {
@@ -56,6 +57,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info h2 {
@@ -69,13 +71,14 @@ body {
     padding: 10px;
     margin: 10px;
     width: 300px; /* Ensure width consistency */
-    border: 2px solid #3882F6; /* Blue border */
+    border: 2px solid #3882F6; /* Blue border for info box images */
     text-align: center;
 }
 
 .info-box img {
     width: 100%; /* Responsive images */
     height: auto;
+    border: 2px solid #3882F6; /* Blue outline for images */
 }
 
 footer {
