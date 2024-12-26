@@ -24,10 +24,22 @@ body {
 }
 
 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     padding: 20px;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 300px; /* Adjust as needed */
+    height: auto;
 }
 
 .hero h1 {
@@ -42,17 +54,28 @@ body {
 .info {
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .info h2 {
     font-size: 36px;
     font-weight: 900;
+    width: 100%;
 }
 
 .info-box {
     background-color: #E5E7EB;
     padding: 10px;
     margin: 10px;
+    width: 300px; /* Ensure width consistency */
+    border: 2px solid #3882F6; /* Blue border */
+    text-align: center;
+}
+
+.info-box img {
+    width: 100%; /* Responsive images */
+    height: auto;
 }
 
 footer {
